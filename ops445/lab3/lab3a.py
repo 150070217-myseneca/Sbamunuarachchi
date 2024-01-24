@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-#return_text_value() function
+# return_text_value() function
 
-#Author ID: Sbamunuarachchi
+# Author ID: Sbamunuarachchi
 
 def return_text_value():
     name = 'Terry'
@@ -17,9 +17,7 @@ def return_number_value():
     num3 = num1 + num2
     return num3
 
-
-#Main Program
-
+# Main Program
 
 if __name__ == '__main__':
     print('python code')
