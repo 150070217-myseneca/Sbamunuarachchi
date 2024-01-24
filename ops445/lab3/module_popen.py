@@ -20,6 +20,8 @@ ipconfig_return = os.popen('ipconfig')
 ipconfig_contents = ipconfig_return.read()
 print('The contents of ipconfig_return:',ipconfig_contents)
 
+import subprocess
+
 p = subprocess.Popen(['date'], stdout=subprocess.PIPE, stdin=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
 
 output = p.communicate()
