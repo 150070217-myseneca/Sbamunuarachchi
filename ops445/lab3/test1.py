@@ -47,3 +47,6 @@ print('my number and is is ', number)
 print('my number and is is ' , number)
 print('my number is ' + str(number))
 print('my number is ' + str(return_number_value()))
+
+#Part 4 - Creating a Python Script with Functions and use them in another Python script
+
